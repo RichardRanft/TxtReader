@@ -63,9 +63,11 @@ void CSpeechSynthesizer::SpeakText(_TCHAR* text)
 	}
 }
 
+// need to figure out how to do this specifically
 void CSpeechSynthesizer::SetVoice(std::string* name)
 {}
 
+// need to work out a way of listing all available voices.
 std::list<std::string*>* CSpeechSynthesizer::GetAvailableVoices()
 {
 	std::list<std::string*>* namelist = new std::list<std::string*>();
